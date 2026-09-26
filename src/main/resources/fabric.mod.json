@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "testblock",
+  "version": "${version}",
+  "name": "Test Block Mod",
+  "description": "Tiny custom block build test.",
+  "authors": ["ChatGPT"],
+  "environment": "*",
+  "entrypoints": { "main": ["com.example.testblock.TestBlockMod"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
